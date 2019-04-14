@@ -1,0 +1,28 @@
+.animate{
+  animation-name: name;
+  animation-duration: 10s;
+}
+
+@keyframes name {
+  0%{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+  }
+  25%{
+    background-color: yellow;
+    transform: scale(2,2);
+  }
+  50%{
+    transform: scale(4,4);
+  }
+  75%{
+    transform: scale(8,8);
+  }
+  100%{
+    transform: scale(16,20);
+  }
+}
+
+
+/*# sourceMappingURL=/type%20script.9ad09f98.css.map */

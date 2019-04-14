@@ -1,0 +1,41 @@
+.body{
+  border-color: rgb(147, 156, 89);
+  text-align: center;
+  margin-top: 300px;
+
+}
+h1{
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+
+
+
+
+.animate{
+  animation-name: animate;
+  animation-duration: 1s;
+}
+
+@keyframes animate{
+  0%{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+  }
+  25%{
+    background-color: yellow;
+    transform: scale(1,2);
+  }
+  50%{
+    transform: scale(2,3);
+  }
+  75%{
+    transform: scale(3,4);
+  }
+  100%{
+    transform: scale(4,2);
+  }
+}
